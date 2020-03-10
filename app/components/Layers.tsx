@@ -38,8 +38,12 @@ const Layers: FC<Props> = ({
   });
   return (
     <>
-      <button onClick={onAddLayer}>+</button>
-      {layerItems.reverse()}
+      <button className="ui fluid primary button" onClick={onAddLayer}>
+        <i className="plus icon" />
+      </button>
+      <div className="ui middle aligned divided list">
+        {layerItems.reverse()}
+      </div>
     </>
   );
 };
