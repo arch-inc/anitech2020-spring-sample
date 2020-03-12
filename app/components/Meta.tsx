@@ -34,7 +34,7 @@ const Meta: FC = () => (
     <meta name="twitter:site" content="@ArchResearchJp" />
     <meta
       property="twitter:image"
-      content={`${root}${path}/static/images/arch-research-sq-inverted.png`}
+      content={`${root}/static/images/arch-research-sq-inverted.png`}
     />
 
     <meta
@@ -43,7 +43,7 @@ const Meta: FC = () => (
     />
     <meta
       property="og:image"
-      content={`${root}${path}/static/images/arch-research-sq-inverted.png`}
+      content={`${root}/static/images/arch-research-sq-inverted.png`}
     />
     <meta
       property="og:description"
