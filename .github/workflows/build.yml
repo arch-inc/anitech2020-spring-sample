@@ -37,7 +37,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-18.04
-    if: github.ref == 'refs/heads/feature/gh-pages'
+    if: github.ref == 'refs/heads/master'
     needs: build
     steps:
       - name: Download build
