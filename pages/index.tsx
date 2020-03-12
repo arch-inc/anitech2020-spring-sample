@@ -1,5 +1,6 @@
 import Head from "next/head";
 import App from "../app/components/App";
+import Meta from "../app/components/Meta";
 import Header from "../app/components/Header";
 import Footer from "../app/components/Footer";
 
@@ -12,6 +13,7 @@ export default function Index() {
         }
       `}</style>
       <Head>
+        <Meta />
         <title key="title">
           anitech2020-spring-sample | Layer support example for Fabric.js
         </title>
