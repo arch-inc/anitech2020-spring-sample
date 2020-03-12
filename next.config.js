@@ -1,3 +1,3 @@
 module.exports = {
-  assetPrefix: process.env.NODE_ENV == "production" ? "/anitech2020-spring" : ""
+  assetPrefix: process.env.NODE_ENV == "production" ? "/anitech2020-spring-sample" : ""
 };
