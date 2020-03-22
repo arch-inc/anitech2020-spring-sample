@@ -2,7 +2,7 @@
   "name": "anitech2020-spring",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next",
+    "dev": "env NODE_ENV='development' next",
     "build": "env NODE_ENV='production' next build",
     "export": "next export",
     "start": "next start",
