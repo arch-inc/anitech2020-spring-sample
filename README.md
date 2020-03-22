@@ -2,7 +2,7 @@
 [![build](https://github.com/arch-inc/anitech2020-spring-sample/workflows/github%20pages/badge.svg)](https://github.com/arch-inc/anitech2020-spring-sample/actions?query=workflow%3A%22github+pages%22)
 
 **anitech2020-spring-sample** is an example implementation of a layer system in Fabric.js utilizing fabric.Group.
-This code is wrote for an article "News from developer of Griffith 2020 Spring” in [Animation Technology 2020 Spring](https://research.archinc.jp/anitech/2020spring/).
+This code is wrote for an article "News from developer of Griffith 2020 Spring” in [Animation Technology 2020 Spring](https://research.archinc.jp/en/anitech/2020spring/).
 
 ### Usage
 #### Try online
